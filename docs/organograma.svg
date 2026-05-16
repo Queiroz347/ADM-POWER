@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <style>
+    .title { font: 700 22px Arial, sans-serif; fill: #1f2937; }
+    .txt { font: 600 16px Arial, sans-serif; fill: #111827; }
+    .small { font: 500 13px Arial, sans-serif; fill: #374151; }
+    .box { stroke: #6b7280; stroke-width: 2; rx: 18; ry: 18; }
+    .line { stroke: #6b7280; stroke-width: 3; fill: none; }
+  </style>
+
+  <text x="30" y="40" class="title">Organograma Ajustado</text>
+
+  <rect class="box" x="670" y="70" width="260" height="90" fill="#8bc34a"/>
+  <text class="txt" x="800" y="108" text-anchor="middle">CHMDT</text>
+  <text class="txt" x="800" y="132" text-anchor="middle">GERENTE</text>
+
+  <rect class="box" x="120" y="260" width="230" height="90" fill="#c8e6c9"/>
+  <text class="txt" x="235" y="300" text-anchor="middle">Gestão Operacional</text>
+
+  <rect class="box" x="410" y="260" width="230" height="90" fill="#ffe082"/>
+  <text class="txt" x="525" y="300" text-anchor="middle">Planejamento</text>
+
+  <rect class="box" x="700" y="260" width="230" height="90" fill="#ffe082"/>
+  <text class="txt" x="815" y="300" text-anchor="middle">PM / Portfólio</text>
+
+  <rect class="box" x="990" y="260" width="230" height="90" fill="#ffe082"/>
+  <text class="txt" x="1105" y="300" text-anchor="middle">Diretoria Executiva</text>
+
+  <path class="line" d="M800 160 V210 H235 V260"/>
+  <path class="line" d="M800 160 V210 H525 V260"/>
+  <path class="line" d="M800 160 V210 H815 V260"/>
+  <path class="line" d="M800 160 V210 H1105 V260"/>
+
+  <rect class="box" x="120" y="420" width="210" height="75" fill="#aed581"/>
+  <text class="txt" x="225" y="465" text-anchor="middle">Supervisor 1</text>
+  <rect class="box" x="120" y="515" width="210" height="75" fill="#ffd54f"/>
+  <text class="txt" x="225" y="560" text-anchor="middle">Técnico 1</text>
+  <rect class="box" x="120" y="610" width="210" height="75" fill="#ffd54f"/>
+  <text class="txt" x="225" y="655" text-anchor="middle">Técnico 2</text>
+
+  <rect class="box" x="390" y="420" width="210" height="75" fill="#aed581"/>
+  <text class="txt" x="495" y="465" text-anchor="middle">Supervisor 2</text>
+  <rect class="box" x="390" y="515" width="210" height="75" fill="#ffd54f"/>
+  <text class="txt" x="495" y="560" text-anchor="middle">Técnico 3</text>
+  <rect class="box" x="390" y="610" width="210" height="75" fill="#ffd54f"/>
+  <text class="txt" x="495" y="655" text-anchor="middle">Técnico 4</text>
+
+  <rect class="box" x="660" y="420" width="210" height="75" fill="#aed581"/>
+  <text class="txt" x="765" y="465" text-anchor="middle">Supervisor 3</text>
+  <rect class="box" x="660" y="515" width="210" height="75" fill="#ffd54f"/>
+  <text class="txt" x="765" y="560" text-anchor="middle">Técnico 5</text>
+  <rect class="box" x="660" y="610" width="210" height="75" fill="#ffd54f"/>
+  <text class="txt" x="765" y="655" text-anchor="middle">Técnico 6</text>
+
+  <path class="line" d="M235 350 V420"/>
+  <path class="line" d="M525 350 V420"/>
+  <path class="line" d="M815 350 V420"/>
+
+  <rect class="box" x="980" y="420" width="500" height="280" fill="#f3f4f6"/>
+  <text class="txt" x="1230" y="465" text-anchor="middle">Fiscalização de Campo</text>
+  <text class="small" x="1010" y="510">• Supervisor 1 → Técnicos 1 e 2</text>
+  <text class="small" x="1010" y="540">• Supervisor 2 → Técnicos 3 e 4</text>
+  <text class="small" x="1010" y="570">• Supervisor 3 → Técnicos 5 e 6</text>
+
+  <text class="small" x="30" y="860">Arquivo em SVG para facilitar edição e exportação.</text>
+</svg>
